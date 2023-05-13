@@ -1,4 +1,4 @@
-# Task 1: Stealing Cookie
+# Task 1: Cookie Stealing
 
 In the first attack, your goal is to steal the logged in user’s Bitbar session cookie and send it to an attacker controlled URL. You need to create URL starting with: `http://localhost:3000/profile?username=` that sends the stolen cookie to `http://localhost:3000/steal cookie?cookie=[stolen cookie here]` when visited. When the attack is successful, the server will log the stolen cookie to the terminal output.
 
