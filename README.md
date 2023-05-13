@@ -42,7 +42,7 @@ start server.sh once again.
 
 You will develop a series of attacks against the Bitbar application (from task 1 to task 6). In each task directory, we describe the inputs and specific actions you will need to provide. All of your attacks should assume that the site is accessible at the URL http://localhost:3000.
 
-Note that we provide a few initial accounts in code/db/migrate/002-add-initial-users.sql. For exam- ple, one given account has username “user1” and password one”. While you’re welcome to create additional accounts, these are the accounts referenced in the ”Deliverable and Grading” portion of each exploit that the grader will use to run your exploit. Note that you can use external libraries if you need, such as jQuery, but you need to include suitable code for that.
+Note that we provide a few initial accounts in `code/db/migrate/002-add-initial-users.sql`. For exam- ple, one given account has username “user1” and password one”. While you’re welcome to create additional accounts, these are the accounts referenced in the ”Deliverable and Grading” portion of each exploit that the grader will use to run your exploit. Note that you can use external libraries if you need, such as jQuery, but you need to include suitable code for that.
 
 ## Writing-up
 You need to write a report to describe how you implement your exploit and resolve challenges. You can use any tool for writing, such as Word and 아래아한글, but you must submit a .pdf file, whose name should be ```lab2_your_student_number.pdf```.
