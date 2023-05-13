@@ -38,7 +38,7 @@ the Bitbar application should be available in your browser at http://localhost:3
 
 ## Lab Description
 
-You will develop a series of attacks against the Bitbar application (from task 1 to task 6). In each task directory, we describe the inputs and specific actions you will need to provide. All of your attacks should assume that the site is accessible at the URL http://localhost:3000.
+You will develop a series of attacks against the Bitbar application (from task 1 to task 6). In each task directory, we describe what inputs you will need to provide to **the grader** (i.e., prof Jinwoo Kim), and what specific actions the grader will take using your input. All of your attacks should assume that the site is accessible at the URL http://localhost:3000.
 
 Note that we provide a few initial accounts in `code/db/migrate/002-add-initial-users.sql`. For example, one given account has username `user1` and password `one`. While you’re welcome to create additional accounts, these are the accounts referenced in the ”Deliverable and Grading” portion of each exploit that the grader will use to run your exploit. Note that you can use external libraries if you need, such as jQuery, but you need to include suitable code for that.
 
