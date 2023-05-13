@@ -36,16 +36,26 @@ the Bitbar application should be available in your browser at http://localhost:3
 every time that you shut it down. To restart the server with a clean database, just run bash
 start server.sh once again.
 
-# Lab Description
+## Lab Description
 
-You will develop a series of attacks against the Bitbar application (from task 1 to task 6). In each task, we describe the inputs and specific actions you will need to provide. All of your attacks should assume that the site is accessible at the URL http://localhost:3000.
+You will develop a series of attacks against the Bitbar application (from task 1 to task 6). In each task directory, we describe the inputs and specific actions you will need to provide. All of your attacks should assume that the site is accessible at the URL http://localhost:3000.
 
 Note that we provide a few initial accounts in code/db/migrate/002-add-initial-users.sql. For exam- ple, one given account has username “user1” and password one”. While you’re welcome to create additional accounts, these are the accounts referenced in the ”Deliverable and Grading” portion of each exploit that the grader will use to run your exploit. Note that you can use external libraries if you need, such as jQuery, but you need to include suitable code for that.
 
 # Writing-up
-You need to write a report to describe how you implement and resolve challenges. Each task has some required questions you need to answer in your report. You can use any tool for writing, such as Word and 아래아한글, but you must submit a .pdf file, whose name should be lab2_your_student_number.pdf.
+You need to write a report to describe how you implement your exploit and resolve challenges. You can use any tool for writing, such as Word and 아래아한글, but you must submit a .pdf file, whose name should be lab2_your_student_number.pdf.
 
 # Submission
-After finishing this lab, you need to compress the contents of this directory with your report before submission. The compressed file should be lab2_your_student_number.zip. You must submit your file to KLAS.
+* Compress the deliverable file for each task with your report.
+* The compressed file should be lab2_your_student_number.zip. You must submit your file to KLAS.
+
+* When we unzip your submission, we expect to see the following sevent files inside a folder:
+- lab2_your_student_number.pdf
+- a.txt
+- b.html
+- c.txt
+- d.txt
+- e.txt
+- f.txt
 
 *Acknowledgement: this homework has been borrowed from Standford CS155.*
