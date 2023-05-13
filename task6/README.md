@@ -1,6 +1,6 @@
 # Task 6: Profile Worm
 
-In this task, you need to develop a Worm, similar to the Samy Worm, which steals Bitbar and spreads to other accounts. You specifically need to construct a profile that when visited transfers 1 Bitbar from the logged-in user to attacker and replaces the profile of the current user with itself. 
+In this task, you need to develop a Worm, similar to the [Samy Worm](https://en.wikipedia.org/wiki/Samy_(computer_worm)), which steals Bitbar and spreads to other accounts. You specifically need to construct a profile that when visited transfers 1 Bitbar from the logged-in user to attacker and replaces the profile of the current user with itself. 
 
 If the `attacker` user changes their profile to whatever you provide in your solution, the following should happen:
 1. When user1 views `attacker`’s profile, 1 Bitbar will be transferred from `user1` to `attacker`, and `user1`’s profile will be replaced with your solution profile.
