@@ -26,7 +26,7 @@ We will grade using the latest version of [Mozilla Firefox](https://www.mozilla.
 
 Your web server will run in a Docker container. The following instructions will walk you through installing Docker, and the container.
 
-1. Install (and open) Docker Desktop on your local machine from https://docs.docker.com/get-docker/ (if you haven't installed Docker desktop before.)
+1. Install (and open) Docker Desktop on your local machine from https://docs.docker.com/get-docker/ (if you haven't installed Docker desktop yet.)
 2. Download or clone this code repository to your local directory.
 3. Open the Git Bash and navigate to the directory to run ```bash build image.sh```. This builds your Docker image and installs all necessary packages.
 4. To start the server, ```run bash start server.sh```. Once you see
@@ -34,15 +34,13 @@ Your web server will run in a Docker container. The following instructions will 
 $ ./node modules/babel-cli/bin/babel-node.js ./bin/www,
 ```
 the Bitbar application should be available in your browser at http://localhost:3000.
-* You can close the server by pressing Ctrl+C in the terminal. The server will completely reset
-every time that you shut it down. To restart the server with a clean database, just run bash
-start server.sh once again.
+* You can close the server by pressing Ctrl+C in the terminal. The server will completely reset every time that you shut it down. To restart the server with a clean database, just `run bash start server.sh` once again.
 
 ## Lab Description
 
 You will develop a series of attacks against the Bitbar application (from task 1 to task 6). In each task directory, we describe the inputs and specific actions you will need to provide. All of your attacks should assume that the site is accessible at the URL http://localhost:3000.
 
-Note that we provide a few initial accounts in `code/db/migrate/002-add-initial-users.sql`. For exam- ple, one given account has username “user1” and password one”. While you’re welcome to create additional accounts, these are the accounts referenced in the ”Deliverable and Grading” portion of each exploit that the grader will use to run your exploit. Note that you can use external libraries if you need, such as jQuery, but you need to include suitable code for that.
+Note that we provide a few initial accounts in `code/db/migrate/002-add-initial-users.sql`. For example, one given account has username `user1` and password `one`. While you’re welcome to create additional accounts, these are the accounts referenced in the ”Deliverable and Grading” portion of each exploit that the grader will use to run your exploit. Note that you can use external libraries if you need, such as jQuery, but you need to include suitable code for that.
 
 ## Writing-up
 You need to write a report to describe how you implement your exploit and resolve challenges. You can use any tool for writing, such as Word and 아래아한글, but you must submit a .pdf file, whose name should be ```lab2_your_student_number.pdf```.
