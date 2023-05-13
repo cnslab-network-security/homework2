@@ -8,4 +8,4 @@ You may assume that all other usernames in the database besides the one you crea
 
 **Deliverable and Grading.** A text file `e.txt` containing your malicious username. The grader will Close the account, then verify that the malicious account and user3 have been removed from the database.
 
-If you mess up the user database while working on the problem, simply kill (ctrl-C) the Docker container and restart the server to reset the database.
+*Tip:* If you mess up the user database while working on the problem, simply kill (ctrl-C) the Docker container and restart the server to reset the database.
