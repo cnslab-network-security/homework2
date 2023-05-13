@@ -8,4 +8,4 @@ The password for the user `attacker` is `evil` and for the user `user1` is `one`
 
 **Deliverable and Grading.** You must submit a file `c.txt` containing the JavaScript to be executed in the Javascript console. You can assume that the grader will run your attack while the database has the original `user1` with 200 Bitbars. After running this JavaScript and refreshing the page, the application must be logged in as `user1` and must allow the grader to transfer Bitbar into the attacker account.
 
-*Hint:* How does the site store its sessions?
+**Hint:** How does the site store its sessions?
