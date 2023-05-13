@@ -4,7 +4,7 @@ In this task, you need to develop a Worm, similar to the Samy Worm, which steals
 
 If the `attacker` user changes their profile to whatever you provide in your solution, the following should happen:
 1. When user1 views `attacker`’s profile, 1 Bitbar will be transferred from `user1` to `attacker`, and `user1`’s profile will be replaced with your solution profile.
-2. 2. Later, if `user2` views user1’s profile, 1 Bitbar will be transferred from `user2` to `attacker`, and `user2`’s profile will be replaced as well, and so on.
+2. Later, if `user2` views user1’s profile, 1 Bitbar will be transferred from `user2` to `attacker`, and `user2`’s profile will be replaced as well, and so on.
 
 When viewing an infected profile, the number of Bitbars should appear to be 10, regardless of the corresponding user’s true bitbar balance. This also applies to the `attacker`. Some tips as to how to display the Bitbars for infected profiles and for building your attack:
 * It is acceptable if infected profiles display 10 Bitbars immediately instead of counting up to 10.
