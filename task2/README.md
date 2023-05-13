@@ -6,4 +6,4 @@ Your submitted attack is a self-contained HTML page (`b.html`) that transfers 10
 
 **Important!** The location bar of the browser should never contain `localhost:3000` at any point, as this might make the victim notice the attack.
 
-**Deliverable and Grading.** You need to submit a single self-contained HTML file `b.html` that contains your exploit. The grader will be logged in to Bitbar before loading `b.html` on a web browser. The grader will check that (1) 10 Bitbars are transferred out of their account to the attacker, (2) the attacker site immediately redirects to the CS155 website, and (3) the web browser never directly visits localhost:3000.
+**Deliverable and Grading.** You need to submit a single self-contained HTML file `b.html` that contains your exploit. The grader will be logged in to Bitbar before loading `b.html` on a web browser. The grader will check that (1) 10 Bitbars are transferred out of their account to the attacker, (2) the attacker site immediately redirects to the Kwangwoon University website, and (3) the web browser never directly visits `localhost:3000`.
