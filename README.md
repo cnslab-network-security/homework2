@@ -53,6 +53,16 @@ You need to write a report to describe how you implement your exploit and resolv
   * `d.txt`
   * `e.txt`
   * `f.txt`
+  * 
+
+## Reference
+
+* HTML, CSS, JavaScript: http://www.w3schools.com/
+* Node.js (Bitbar uses version 9.11.1): https://nodejs.org/dist/latest-v9.x/docs/api/
+* Express JS (The web framework that powers Bitbar in app.js): https://expressjs.com/en/4x/api.html
+* EJS for HTML Templating (See .ejs files within views/): http://ejs.co/#docs
+* XSS: https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet
+* SQL: http://www.w3schools.com/sql/, https://github.com/kriasoft/node-sqlite (package Bitbar uses)
 
 ## Acknowledgement
 This homework has been borrowed from Standford CS155.
