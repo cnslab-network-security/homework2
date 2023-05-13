@@ -1,6 +1,6 @@
-# homework2
+# Network Security Lab #2
 
-Note: this homework has been borrowed from Standford CS155.
+
 
 ## Introduction
 In this project, you will construct several attacks against a web application. You will specifically be attacking **Bitbar**, a Node.js webapp that lets users manage Bitbars, a new ultra-safe cryptocurrency. Each user is given 100 Bitbars when they register for the site. They can transfer Bitbars to other users using the web interface, as well as create and view other user profiles. You have been given the source code for the Bitbar application. Real attackers generally do not have access to the source of a target website, but the source may make finding the vulnerabilities a bit easier. Bitbar is powered by a collection of Node packages, including the Express.js web application framework, a SQLite database, and EJS for HTML templating. The list of resources in the next section includes links for more information on these packages as well as other information that you can use as a reference.
@@ -19,3 +19,21 @@ We will grade using the latest version of [Mozilla Firefox](https://www.mozilla.
 2. Change the Enhanced Tracking Protection (향상된 추적 방지 기능) to Custom (사용자 지정)
 3. Under Cookies, select Cross-site tracking cookies (교차 사이트 추적 쿠키).
 4. If you use Firefox as your regular browser, it’s good practice to reverse this setting when browsing normally.
+
+### Detailed setup instructions:
+
+Your web server will run in a Docker container. The following instructions will walk you through installing Docker, and the container.
+
+1. Install (and open) Docker Desktop on your local machine from https://docs.docker.com/get-docker/ (if you haven't installed Docker desktop before.)
+2. Download or clone this code repository to your local directory.
+3. Open the Git Bash and navigate to the directory to run ```bash build image.sh```. This builds your Docker image and installs all necessary packages.
+4. To start the server, ```run bash start server.sh```. Once you see
+```
+$ ./node modules/babel-cli/bin/babel-node.js ./bin/www,
+```
+the Bitbar application should be available in your browser at http://localhost:3000.
+* You can close the server by pressing Ctrl+C in the terminal. The server will completely reset
+every time that you shut it down. To restart the server with a clean database, just run bash
+start server.sh once again.
+
+*Acknowledgement: this homework has been borrowed from Standford CS155.*
