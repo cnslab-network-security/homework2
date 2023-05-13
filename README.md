@@ -49,7 +49,7 @@ You need to write a report to describe how you implement your exploit and resolv
 * Compress the deliverable file for each task with your report.
 * The compressed file should be ```lab2_your_student_number.zip```. You must submit your this file to KLAS.
 
-* When we unzip your submission, we expect to see the following 7 files inside a folder:
+* When we unzip your submission, we expect to see the following 7 files:
   * `your_student_number.pdf`
   * `a.txt`
   * `b.html`
