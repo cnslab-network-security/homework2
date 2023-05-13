@@ -43,14 +43,14 @@ You will develop a series of attacks against the Bitbar application (from task 1
 Note that we provide a few initial accounts in `code/db/migrate/002-add-initial-users.sql`. For example, one given account has username `user1` and password `one`. While you’re welcome to create additional accounts, these are the accounts referenced in the ”Deliverable and Grading” portion of each exploit that the grader will use to run your exploit. Note that you can use external libraries if you need, such as jQuery, but you need to include suitable code for that.
 
 ## Writing-up
-You need to write a report to describe how you implement your exploit and resolve challenges. You can use any tool for writing, such as Word and 아래아한글, but you must submit a .pdf file, whose name should be ```lab2_your_student_number.pdf```.
+You need to write a report to describe how you implement your exploit and resolve challenges. You can use any tool for writing, such as Word and 아래아한글, but you must submit a .pdf file, whose name should be ```your_student_number.pdf```.
 
 ## Submission
 * Compress the deliverable file for each task with your report.
 * The compressed file should be ```lab2_your_student_number.zip```. You must submit your this file to KLAS.
 
-* When we unzip your submission, we expect to see the following sevent files inside a folder:
-  * `lab2_your_student_number.pdf`
+* When we unzip your submission, we expect to see the following 7 files inside a folder:
+  * `your_student_number.pdf`
   * `a.txt`
   * `b.html`
   * `c.txt`
