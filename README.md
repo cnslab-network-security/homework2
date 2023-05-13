@@ -50,12 +50,12 @@ You need to write a report to describe how you implement your exploit and resolv
 * The compressed file should be lab2_your_student_number.zip. You must submit your file to KLAS.
 
 * When we unzip your submission, we expect to see the following sevent files inside a folder:
-- lab2_your_student_number.pdf
-- a.txt
-- b.html
-- c.txt
-- d.txt
-- e.txt
-- f.txt
+  * lab2_your_student_number.pdf
+  * a.txt
+  * b.html
+  * c.txt
+  * d.txt
+  * e.txt
+  * f.txt
 
 *Acknowledgement: this homework has been borrowed from Standford CS155.*
