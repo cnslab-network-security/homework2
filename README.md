@@ -22,7 +22,7 @@ We will grade using the latest version of [Mozilla Firefox](https://www.mozilla.
 3. Under Cookies, select Cross-site tracking cookies (교차 사이트 추적 쿠키).
 4. If you use Firefox as your regular browser, it’s good practice to reverse this setting when browsing normally.
 
-### Detailed setup instructions:
+### Detailed setup instructions
 
 Your web server will run in a Docker container. The following instructions will walk you through installing Docker, and the container.
 
