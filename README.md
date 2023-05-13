@@ -29,11 +29,7 @@ Your web server will run in a Docker container. The following instructions will 
 1. Install (and open) Docker Desktop on your local machine from https://docs.docker.com/get-docker/ (if you haven't installed Docker desktop yet.)
 2. Download or clone this code repository to your local directory.
 3. Open the Git Bash and navigate to the directory to run ```bash build image.sh```. This builds your Docker image and installs all necessary packages.
-4. To start the server, ```run bash start server.sh```. Once you see
-```
-$ ./node modules/babel-cli/bin/babel-node.js ./bin/www,
-```
-the Bitbar application should be available in your browser at http://localhost:3000.
+4. To start the server, ```run bash start server.sh```. Once you see `$ ./node modules/babel-cli/bin/babel-node.js ./bin/www,` the Bitbar application should be available in your browser at http://localhost:3000.
 * You can close the server by pressing Ctrl+C in the terminal. The server will completely reset every time that you shut it down. To restart the server with a clean database, just `run bash start server.sh` once again.
 
 ## Lab Description
