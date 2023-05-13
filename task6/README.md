@@ -11,8 +11,8 @@ When viewing an infected profile, the number of Bitbars should appear to be 10, 
 * There is no problem if the number of Bitbars the worm displays for infected users counts up to 10.
 * There IS a problem if, for example, the count is first set to 100, and then set to 10.
 * There is no problem if a newly-infected user only sees the exploit text in their profile after they have logged out and logged back in again.
-* There is no problem if the exploit is triggered when the attacker sees their own infected profile.
+* There is no problem if the exploit is triggered when the `attacker` sees their own infected profile.
 
 The transfer and application should be reasonably quick (under 15 seconds). During that time, the grader will not click anywhere. During the transfer and replication process, the browser’s location bar should remain at: `http://localhost:3000/profile?username=x` where `x` is the user whose profile is being viewed. The visitor should not see any extra graphical user interface elements (e.g. frames), and the user whose profile is being viewed should appear to have 10 Bitbars.
 
-**Deliverable and Grading.** A file named `f.txt` containing your malicious profile. We will copy and paste your profile text into attacker’s profile and view that profile using the grader’s victim account. We will then view the victim’s profile profile with more accounts, checking for the transfer and replication. You will not be graded on the corner case where the user has no Bitbar in their account.
+**Deliverable and Grading.** A file named `f.txt` containing your malicious profile. We will copy and paste your profile text into `attacker`’s profile and view that profile using the grader’s victim account. We will then view the victim’s profile profile with more accounts, checking for the transfer and replication. You will not be graded on the corner case where the user has no Bitbar in their account.
