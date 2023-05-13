@@ -4,8 +4,6 @@ In this task, you will construct a Cross Site Request Forgery (CSRF) attack that
 
 Your submitted attack is a self-contained HTML page (`b.html`) that transfers 10 Bitbars from the grader’s logged in account to the user attacker. As soon as the transfer is complete, your attack site should immediately redirect the user to `https://www.kw.ac.kr`. This should happen fast enough that normal users won’t notice.
 
-**Important!** The location bar of the browser should never contain localhost:3000 at any point, as this
-might tip off the victim to the attack.
+**Important!** The location bar of the browser should never contain `localhost:3000` at any point, as this might make the victim notice the attack.
 
-**Deliverable and Grading.** You need to submit a single self-contained HTML file b.html that contains
-your exploit. The grader will be logged in to Bitbar before loading b.html on a web browser. The grader wil
+**Deliverable and Grading.** You need to submit a single self-contained HTML file `b.html` that contains your exploit. The grader will be logged in to Bitbar before loading `b.html` on a web browser. The grader will check that (1) 10 Bitbars are transferred out of their account to the attacker, (2) the attacker site immediately redirects to the CS155 website, and (3) the web browser never directly visits localhost:3000.
