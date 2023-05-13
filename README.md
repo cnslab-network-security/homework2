@@ -5,7 +5,7 @@
 ## Introduction
 In this project, you will construct several attacks against a web application. You will specifically be attacking **Bitbar**, a Node.js webapp that lets users manage Bitbars, a new ultra-safe cryptocurrency. Each user is given 100 Bitbars when they register for the site. They can transfer Bitbars to other users using the web interface, as well as create and view other user profiles. 
 
-You have been given the source code for the Bitbar application. Real attackers generally do not have access to the source of a target website, but the source may make finding the vulnerabilities a bit easier. Bitbar is powered by a collection of Node packages, including the Express.js web application framework, a SQLite database, and EJS for HTML templating. At the end of this document, you can find the links for more information on these packages as well as other information that you can use as a reference.
+You have been given the source code (in `code` directory) for the Bitbar application. Real attackers generally do not have access to the source of a target website, but the source may make finding the vulnerabilities a bit easier. Bitbar is powered by a collection of Node packages, including the Express.js web application framework, a SQLite database, and EJS for HTML templating. At the end of this document, you can find the links for more information on these packages as well as other information that you can use as a reference.
 
 ## Setup Instructions
 
@@ -26,33 +26,27 @@ We will grade using the latest version of [Mozilla Firefox](https://www.mozilla.
 
 Your web server will run in a Docker container. The following instructions will walk you through installing Docker, and the container.
 
-1. Install (and open) Docker Desktop on your local machine from https://docs.docker.com/get-docker/ (if you haven't installed Docker desktop before.)
+1. Install (and open) Docker Desktop on your local machine from https://docs.docker.com/get-docker/ (if you haven't installed Docker desktop yet.)
 2. Download or clone this code repository to your local directory.
 3. Open the Git Bash and navigate to the directory to run ```bash build image.sh```. This builds your Docker image and installs all necessary packages.
-4. To start the server, ```run bash start server.sh```. Once you see
-```
-$ ./node modules/babel-cli/bin/babel-node.js ./bin/www,
-```
-the Bitbar application should be available in your browser at http://localhost:3000.
-* You can close the server by pressing Ctrl+C in the terminal. The server will completely reset
-every time that you shut it down. To restart the server with a clean database, just run bash
-start server.sh once again.
+4. To start the server, ```run bash start server.sh```. Once you see `$ ./node modules/babel-cli/bin/babel-node.js ./bin/www`, the Bitbar application should be available in your browser at http://localhost:3000.
+* You can close the server by pressing Ctrl+C in the terminal. The server will completely reset every time that you shut it down. To restart the server with a clean database, just `run bash start server.sh` once again.
 
 ## Lab Description
 
-You will develop a series of attacks against the Bitbar application (from task 1 to task 6). In each task directory, we describe the inputs and specific actions you will need to provide. All of your attacks should assume that the site is accessible at the URL http://localhost:3000.
+You will develop a series of attacks against the Bitbar application (from task 1 to task 6). In each task directory, we describe what inputs you will need to provide to **the grader** (i.e., prof Jinwoo Kim), and what specific actions the grader will take using your input. All of your attacks should assume that the site is accessible at the URL http://localhost:3000.
 
-Note that we provide a few initial accounts in code/db/migrate/002-add-initial-users.sql. For exam- ple, one given account has username “user1” and password one”. While you’re welcome to create additional accounts, these are the accounts referenced in the ”Deliverable and Grading” portion of each exploit that the grader will use to run your exploit. Note that you can use external libraries if you need, such as jQuery, but you need to include suitable code for that.
+Note that we provide a few initial accounts in `code/db/migrate/002-add-initial-users.sql`. For example, one given account has username `user1` and password `one`. While you’re welcome to create additional accounts, these are the accounts referenced in the ”Deliverable and Grading” portion of each exploit that the grader will use to run your exploit. Note that you can use external libraries if you need, such as jQuery, but you need to include suitable code for that.
 
 ## Writing-up
-You need to write a report to describe how you implement your exploit and resolve challenges. You can use any tool for writing, such as Word and 아래아한글, but you must submit a .pdf file, whose name should be ```lab2_your_student_number.pdf```.
+You need to write a report to describe how you implement your exploit and resolve challenges. You can use any tool for writing, such as Word and 아래아한글, but you must submit a .pdf file, whose name should be ```your_student_number.pdf```.
 
 ## Submission
 * Compress the deliverable file for each task with your report.
 * The compressed file should be ```lab2_your_student_number.zip```. You must submit your this file to KLAS.
 
-* When we unzip your submission, we expect to see the following sevent files inside a folder:
-  * `lab2_your_student_number.pdf`
+* When we unzip your submission, we expect to see the following 7 files:
+  * `your_student_number.pdf`
   * `a.txt`
   * `b.html`
   * `c.txt`
