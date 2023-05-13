@@ -53,7 +53,6 @@ You need to write a report to describe how you implement your exploit and resolv
   * `d.txt`
   * `e.txt`
   * `f.txt`
-  * 
 
 ## Reference
 
