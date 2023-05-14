@@ -3,7 +3,7 @@
 ## Due Date: 2023 June 4
 
 ## Introduction
-In this project, you will construct several attacks against a web application. You will specifically be attacking **Bitbar**, a Node.js webapp that lets users manage Bitbars, a new ultra-safe cryptocurrency. Each user is given 100 Bitbars when they register for the site. They can transfer Bitbars to other users using the web interface, as well as create and view other user profiles. 
+In this lab, you will construct several attacks against a web application. You will specifically be attacking **Bitbar**, a Node.js webapp that lets users manage Bitbars, a new ultra-safe cryptocurrency. Each user is given 100 Bitbars when they register for the site. They can transfer Bitbars to other users using the web interface, as well as create and view other user profiles. 
 
 You have been given the source code (in `code` directory) for the Bitbar application. Real attackers generally do not have access to the source of a target website, but the source may make finding the vulnerabilities a bit easier. Bitbar is powered by a collection of Node packages, including the Express.js web application framework, a SQLite database, and EJS for HTML templating. At the end of this document, you can find the links for more information on these packages as well as other information that you can use as a reference.
 
@@ -53,6 +53,15 @@ You need to write a report to describe how you implement your exploit and resolv
   * `d.txt`
   * `e.txt`
   * `f.txt`
+
+## Reference
+
+* HTML, CSS, JavaScript: http://www.w3schools.com/
+* Node.js (Bitbar uses version 9.11.1): https://nodejs.org/dist/latest-v9.x/docs/api/
+* Express JS (The web framework that powers Bitbar in app.js): https://expressjs.com/en/4x/api.html
+* EJS for HTML Templating (See .ejs files within views/): http://ejs.co/#docs
+* XSS: https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet
+* SQL: http://www.w3schools.com/sql/, https://github.com/kriasoft/node-sqlite (package Bitbar uses)
 
 ## Acknowledgement
 This homework has been borrowed from Standford CS155.
