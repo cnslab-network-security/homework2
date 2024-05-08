@@ -1,6 +1,6 @@
 # Network Security Lab #2
 
-## Due Date: 2023 June 4
+## Due Date: 2024 May 31
 
 ## Introduction
 In this lab, you will construct several attacks against a web application. You will specifically be attacking **Bitbar**, a Node.js webapp that lets users manage Bitbars, a new ultra-safe cryptocurrency. Each user is given 100 Bitbars when they register for the site. They can transfer Bitbars to other users using the web interface, as well as create and view other user profiles. 
@@ -13,7 +13,7 @@ You will run the Bitbar application in a provided Docker container. When the ser
 
 ### Browser
 
-We will grade using the latest version of [Mozilla Firefox](https://www.mozilla.org/ko/firefox/new/), and we strongly recommend you test your attacks in Firefox. Chrome has introduced aggressive browser side XSS guards, which may make some attacks unfeasible if you use Chrome.
+I will grade using the latest version of [Mozilla Firefox](https://www.mozilla.org/ko/firefox/new/), and I strongly recommend you test your attacks in Firefox. Chrome has introduced aggressive browser side XSS guards, making some attacks unfeasible.
 
 **IMPORTANT**: One of the attacks we ask you to implement is a cross-site request forgery—this relies on cross-site requests including the logged in user’s cookies. Firefox now defaults to a new privacy setting that blocks these cross-site cookies. In order to successfully complete your attacks, you will need to (at least temporarily) turn this setting off.
 
@@ -64,4 +64,4 @@ You need to write a report to describe how you implement your exploit and resolv
 * SQL: http://www.w3schools.com/sql/, https://github.com/kriasoft/node-sqlite (package Bitbar uses)
 
 ## Acknowledgement
-This homework has been borrowed from Standford CS155.
+This assignment has been borrowed from Standford CS155.
